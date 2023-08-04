@@ -29,5 +29,5 @@ def download_youtube_playlist_with_audio(playlist_url, output_path='.'):
         print("An error occurred during the download:", str(e))
 
 if __name__ == "__main__":
-    playlist_url = "https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg"
+    playlist_url = "https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P"
     download_youtube_playlist_with_audio(playlist_url, output_path='D:\Yt Playlists')
